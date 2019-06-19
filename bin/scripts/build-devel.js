@@ -11,7 +11,7 @@ const baseDeps = [
     },
     {
         "name": "callflow",
-        "src": "https://github.com/PrivateSky/callflow.git"
+        "src": "https://github.com/alsofronie/callflow.git"
     },
     {
         "name": "browserfs-dist",
@@ -27,7 +27,7 @@ const baseDeps = [
     },
     {
         "name": "interact",
-        "src": "https://github.com/PrivateSky/interact.git"
+        "src": "https://github.com/alsofronie/interact.git"
     },
     {
         "name": "pskdb",
@@ -65,10 +65,14 @@ const baseDeps = [
         "name": "csb-wizard",
         "src": "https://github.com/PrivateSky/csb-wizard.git"
     },
-	{
-		"name": "pskbuffer",
-		"src": "https://github.com/PrivateSky/pskbuffer.git"
-	},
+    {
+        "name": "psky-schema",
+        "src": "https://github.com/alsofronie/psky-schema"
+    },
+    {
+      "name": "pskbuffer",
+      "src": "https://github.com/PrivateSky/pskbuffer.git"
+    },
     {
 		"name": "csb-core",
 		"src": "https://github.com/PrivateSky/csb-core.git"
@@ -95,12 +99,12 @@ const config = {
         },
         {
             "name": "swarmutils",
-            "src": "https://github.com/PrivateSky/swarmutils.git"
+            "src": "https://github.com/alsofronie/swarmutils.git"
         },
-		{
-			"name": "psk-combo-utils",
-			"src": "https://github.com/PrivateSky/psk-combo-utils.git",
-		},
+        {
+          "name": "psk-combo-utils",
+          "src": "https://github.com/PrivateSky/psk-combo-utils.git",
+        },
         {
             "name": "psk-integration-testing",
             "src": "https://github.com/PrivateSky/psk-integration-testing.git",
