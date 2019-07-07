@@ -75,7 +75,6 @@ var domainSandboxes = {};
 function launchDomainSandbox(name, configuration) {
     if(!domainSandboxes[name]) {
         const env = {config: JSON.parse(JSON.stringify(beesHealer.asJSON(configuration).public))};
-
         if(Object.keys(env.config.remoteInterfaces).length  === 0 && Object.keys(env.config.localInterfaces).length === 0) {
             console.log(`Skipping starting domain ${name} due to missing both remoteInterfaces and localInterfaces`);
             return;

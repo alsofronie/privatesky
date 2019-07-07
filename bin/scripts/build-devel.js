@@ -31,7 +31,7 @@ const baseDeps = [
     },
     {
         "name": "pskdb",
-        "src": "https://github.com/PrivateSky/pskdb.git"
+        "src": "https://github.com/alsofronie/pskdb.git"
     },
     {
         "name": "psk-http-client",
@@ -59,7 +59,7 @@ const baseDeps = [
     },
     {
         "name": "pskadmin",
-        "src": "https://github.com/PrivateSky/pskadmin.git"
+        "src": "https://github.com/alsofronie/pskadmin.git"
     },
     {
         "name": "csb-wizard",

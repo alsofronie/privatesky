@@ -9,7 +9,6 @@ var exitHandler = require("./../util/exitHandler")(sandboxes);
 
 var bootSandBox = $$.flow.describe("PrivateSky.swarm.engine.bootInLauncher", {
     boot:function(sandBox, spaceName, folder, codeFolder, callback){
-        // console.log("Booting in ", folder, " context ", spaceName);
 
         this.callback   = callback;
         this.folder     = folder;
@@ -87,7 +86,6 @@ function SandBoxHandler(spaceName, folder, codeFolder, resultCallBack){
 
     var self = this;
     var mqHandler;
-
 
     bootSandBox().boot(this, spaceName,folder, codeFolder, function(err, childProcess){
         if(!err){
